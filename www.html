@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radhe Radhe - Suman's Creation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    /* Animation for colorful text */
+    .animated-text {
+      font-size: 5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      animation: colorChange 3s infinite, zoomIn 3s forwards;
+    }
+
+    /* Color changing effect */
+    @keyframes colorChange {
+      0% { color: #FF5733; }
+      25% { color: #33FF57; }
+      50% { color: #3357FF; }
+      75% { color: #F1C40F; }
+      100% { color: #FF5733; }
+    }
+
+    /* Zoom-in effect */
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Jai Shree Ram text styling */
+    .jai-shree-ram {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-top: 20px;
+      animation: fadeIn 2s ease-in-out 3s forwards;
+      color: #F39C12;
+    }
+
+    /* Fade-in effect for Jai Shree Ram */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Radhe Radhe text styling */
+    .radhe-radhe {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 30px;
+      color: #1ABC9C;
+    }
+
+    /* Suman's Creator Text */
+    .created-by {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      font-size: 1.2rem;
+      color: #FFF;
+      opacity: 0.7;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Welcome Text -->
+  <div class="animated-text">Welcome to Radhe Radhe</div>
+
+  <!-- Jai Shree Ram Text -->
+  <div class="jai-shree-ram">Jai Shree Ram</div>
+
+  <!-- Radhe Radhe Stable Text -->
+  <div class="radhe-radhe">Radhe Radhe</div>
+
+  <!-- Created By Text -->
+  <div class="created-by">Created by Suman</div>
+
+</body>
+</html>
